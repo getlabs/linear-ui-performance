@@ -1,6 +1,6 @@
 ---
 name: linear-ui-performance
-description: Use for building lightning-fast web UIs and data-heavy SaaS apps (lists, tables, dashboards, issue trackers, project management, real-time collab). Apply Linear.app's proven techniques: local-first architecture with IndexedDB + granular observables, optimistic updates that feel instant, advanced code-splitting, module preloading, virtualization, and rendering optimizations. Trigger on performance discussions, slow UIs, data fetching, state management, or when user wants "Linear-like speed".
+description: Use for building lightning-fast web UIs and data-heavy SaaS apps (lists, tables, dashboards, issue trackers, project management, real-time collab). Apply Linear.app proven techniques for local-first architecture with IndexedDB plus granular observables, optimistic updates, advanced code-splitting, module preloading, virtualization and rendering optimizations. Trigger on performance discussions, slow UIs, data fetching, state management or when user wants Linear-like speed.
 ---
 
 You are a performance engineering expert specializing in Linear.app's architecture for making complex web apps feel native and instantaneous.

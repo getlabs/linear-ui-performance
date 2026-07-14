@@ -1,8 +1,11 @@
 # linear-ui-performance
 
-**Agent Skill** for Cursor, Claude Code, Codex, and other compatible AI coding agents.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/getlabs/linear-ui-performance/pulls)
 
-Encodes the technical performance architecture and best practices from Linear.app's "How is Linear so fast?" breakdown. Makes your AI agent an expert at building lightning-fast, native-feeling web UIs — especially data-heavy SaaS tools like issue trackers, project management, dashboards, tables, and real-time collaborative interfaces.
+**Agent Skill** that teaches AI coding agents how to build extremely fast, native-feeling web UIs — inspired by Linear.app’s architecture.
+
+Makes your agent an expert in local-first patterns, optimistic updates, granular reactivity, and high-performance rendering.
 
 ## Installation (one command)
 
@@ -32,16 +35,14 @@ Browse all skills: https://skills.sh/
 - Concrete config examples (Vite/Rolldown, etc.)
 - Stack-specific guidance (React/Next.js, Angular, general)
 
-## How to publish / update this skill yourself
+## Example
 
-1. Create a new public GitHub repository (recommended name: `linear-ui-performance`)
-2. Copy the contents of this folder into the repo root (especially `SKILL.md`)
-3. Commit and push
-4. Install from your repo: `npx skills add getlabs/linear-ui-performance`
-5. (Optional) Add a `.skills.json` lockfile in projects for reproducible team installs
+After adding the skill, your agent will automatically apply these patterns when you ask things like:
 
-The skill uses the open **Agent Skills** standard (SKILL.md + YAML frontmatter). It works across Cursor, Claude Code, and many other agents without modification.
-
+- “Build a fast issue list with optimistic updates”
+- “Create a high-performance dashboard with virtualized tables”
+- “Implement local-first state management for this feature”
+ 
 ## Source
 
 Based on the excellent technical breakdown at:
